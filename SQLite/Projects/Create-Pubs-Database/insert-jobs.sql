@@ -1,0 +1,14 @@
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('New Hire - Job not specified', 10, 10);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Chief Executive Officer', 200, 250);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Business Operations Manager', 175, 225);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Chief Financial Officier', 175, 250);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Publisher', 150, 250);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Managing Editor', 140, 225);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Marketing Manager', 120, 200);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Public Relations Manager', 100, 175);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Acquisitions Manager', 75, 175);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Productions Manager', 75, 165);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Operations Manager', 75, 150);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Editor', 25, 100);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Sales Representative', 25, 100);
+insert into jobs ( job_desc, min_lvl, max_lvl) values ('Designer', 25, 100);

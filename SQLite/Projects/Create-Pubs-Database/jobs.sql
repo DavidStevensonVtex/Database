@@ -1,7 +1,6 @@
 CREATE TABLE jobs
 (
-   job_id         smallint          IDENTITY(1,1)
-         PRIMARY KEY,
+   job_id         INTEGER           PRIMARY KEY,
    job_desc       varchar(50)       NOT NULL
          DEFAULT 'New Position - title not formalized yet',
    min_lvl        tinyint           NOT NULL

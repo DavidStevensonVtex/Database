@@ -13,5 +13,5 @@ CREATE TABLE titles
    ytd_sales      int                   NULL,
    notes          varchar(200)          NULL,
    pubdate        datetime          NOT NULL
-         DEFAULT (getdate())
+         DEFAULT CURRENT_TIMESTAMP
 )

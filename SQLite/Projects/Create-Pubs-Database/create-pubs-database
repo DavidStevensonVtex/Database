@@ -18,5 +18,18 @@ sqlite3 "$PUBS_DB" <<EOF
 .read jobs.sql
 .read pub_info.sql
 .read employee.sql
+.read insert-authors.sql
+.read insert-publishers.sql
+.read insert-pub_info.sql
+.read insert-titles.sql
+.read insert-titleauthor.sql
+.read insert-stores.sql
+.read insert-sales.sql
+.read insert-roysched.sql
+.read insert-discounts.sql
+.read insert-jobs.sql
+.read insert-employee.sql
+.read create-indexes.sql
+.read create-views.sql
 .quit
 EOF

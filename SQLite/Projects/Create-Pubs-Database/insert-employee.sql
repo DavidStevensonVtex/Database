@@ -1,0 +1,46 @@
+insert into employee values ('PTC11962M', 'Philip', 'T', 'Cramer', 2, 215, '9952', '11/11/89');
+insert into employee values ('AMD15433F', 'Ann', 'M', 'Devon', 3, 200, '9952', '07/16/91');
+insert into employee values ('F-C16315M', 'Francisco', '', 'Chang', 4, 227, '9952', '11/03/90');
+insert into employee values ('LAL21447M', 'Laurence', 'A', 'Lebihan', 5, 175, '0736', '06/03/90');
+insert into employee values ('PXH22250M', 'Paul', 'X', 'Henriot', 5, 159, '0877', '08/19/93');
+insert into employee values ('SKO22412M', 'Sven', 'K', 'Ottlieb', 5, 150, '1389', '04/05/91');
+insert into employee values ('RBM23061F', 'Rita', 'B', 'Muller', 5, 198, '1622', '10/09/93');
+insert into employee values ('MJP25939M', 'Maria', 'J', 'Pontes', 5, 246, '1756', '03/01/89');
+insert into employee values ('JYL26161F', 'Janine', 'Y', 'Labrune', 5, 172, '9901', '05/26/91');
+insert into employee values ('CFH28514M', 'Carlos', 'F', 'Hernadez', 5, 211, '9999', '04/21/89');
+insert into employee values ('VPA30890F', 'Victoria', 'P', 'Ashworth', 6, 140, '0877', '09/13/90');
+insert into employee values ('L-B31947F', 'Lesley', '', 'Brown', 7, 120, '0877', '02/13/91');
+insert into employee values ('ARD36773F', 'Anabela', 'R', 'Domingues', 8, 100, '0877', '01/27/93');
+insert into employee values ('M-R38834F', 'Martine', '', 'Rance', 9, 75, '0877', '02/05/92');
+insert into employee values ('PHF38899M', 'Peter', 'H', 'Franken', 10, 75, '0877', '05/17/92');
+insert into employee values ('DBT39435M', 'Daniel', 'B', 'Tonini', 11, 75, '0877', '01/01/90');
+insert into employee values ('H-B39728F', 'Helen', '', 'Bennett', 12, 35, '0877', '09/21/89');
+insert into employee values ('PMA42628M', 'Paolo', 'M', 'Accorti', 13, 35, '0877', '08/27/92');
+insert into employee values ('ENL44273F', 'Elizabeth', 'N', 'Lincoln', 14, 35, '0877', '07/24/90');
+
+GO
+
+insert into employee values ('MGK44605M', 'Matti', 'G', 'Karttunen', 6, 220, '0736', '05/01/94');
+insert into employee values ('PDI47470M', 'Palle', 'D', 'Ibsen', 7, 195, '0736', '05/09/93');
+insert into employee values ('MMS49649F', 'Mary', 'M', 'Saveley', 8, 175, '0736', '06/29/93');
+insert into employee values ('GHT50241M', 'Gary', 'H', 'Thomas', 9, 170, '0736', '08/09/88');
+insert into employee values ('MFS52347M', 'Martin', 'F', 'Sommer', 10, 165, '0736', '04/13/90');
+insert into employee values ('R-M53550M', 'Roland', '', 'Mendel', 11, 150, '0736', '09/05/91');
+insert into employee values ('HAS54740M', 'Howard', 'A', 'Snyder', 12, 100, '0736', '11/19/88');
+insert into employee values ('TPO55093M', 'Timothy', 'P', 'O''Rourke', 13, 100, '0736', '06/19/88');
+insert into employee values ('KFJ64308F', 'Karin', 'F', 'Josephs', 14, 100, '0736', '10/17/92');
+insert into employee values ('DWR65030M', 'Diego', 'W', 'Roel', 6, 192, '1389', '12/16/91');
+insert into employee values ('M-L67958F', 'Maria', '', 'Larsson', 7, 135, '1389', '03/27/92');
+insert into employee values ('PSP68661F', 'Paula', 'S', 'Parente', 8, 125, '1389', '01/19/94');
+insert into employee values ('MAS70474F', 'Margaret', 'A', 'Smith', 9, 78, '1389', '09/29/88');
+insert into employee values ('A-C71970F', 'Aria', '', 'Cruz', 10, 87, '1389', '10/26/91');
+insert into employee values ('MAP77183M', 'Miguel', 'A', 'Paolino', 11, 112, '1389', '12/07/92');
+insert into employee values ('Y-L77953M', 'Yoshi', '', 'Latimer', 12, 32, '1389', '06/11/89');
+insert into employee values ('CGS88322F', 'Carine', 'G', 'Schmitt', 13, 64, '1389', '07/07/92');
+insert into employee values ('PSA89086M', 'Pedro', 'S', 'Afonso', 14, 89, '1389', '12/24/90');
+insert into employee values ('A-R89858F', 'Annette', '', 'Roulet', 6, 152, '9999', '02/21/90');
+insert into employee values ('HAN90777M', 'Helvetius', 'A', 'Nagy', 7, 120, '9999', '03/19/93');
+insert into employee values ('M-P91209M', 'Manuel', '', 'Pereira', 8, 101, '9999', '01/09/89');
+insert into employee values ('KJJ92907F', 'Karla', 'J', 'Jablonski', 9, 170, '9999', '03/11/94');
+insert into employee values ('POK93028M', 'Pirkko', 'O', 'Koskitalo', 10, 80, '9999', '11/29/93');
+insert into employee values ('PCM98509F', 'Patricia', 'C', 'McKenna', 11, 150, '9999', '08/01/89');

@@ -1,7 +1,7 @@
 CREATE TABLE authors
 (
-   au_id          id
-         CHECK (au_id like '[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]')
+   au_id          varchar(11)
+      --    CHECK (au_id like '[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]')
          CONSTRAINT UPKCL_auidind PRIMARY KEY,
 
    au_lname       varchar(40)       NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE authors
    address        varchar(40)           NULL,
    city           varchar(20)           NULL,
    state          char(2)               NULL,
-   zip            char(5)               NULL
-         CHECK (zip like '[0-9][0-9][0-9][0-9][0-9]'),
+   zip            char(5)               NULL,
+      --    CHECK (zip like '[0-9][0-9][0-9][0-9][0-9]'),
    contract       INTEGER               NOT NULL
 )
