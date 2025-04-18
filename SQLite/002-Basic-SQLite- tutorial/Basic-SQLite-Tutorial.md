@@ -88,3 +88,9 @@ For a table with many columns, the query would be so long that time-consuming to
 `SELECT * FROM tracks;`
 
 You should use the asterisk (*) for testing purposes only, not in the application development.
+
+## Section 2. Sorting rows
+
+Order By – sort the result set in ascending or descending order.
+
+### [SQLite Order By]()

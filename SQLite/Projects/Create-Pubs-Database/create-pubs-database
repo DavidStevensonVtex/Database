@@ -1,0 +1,22 @@
+#!/bin/bash
+
+PUBS_DB="pubs.db"
+
+if [ -f "$PUBS_DB" ]; then
+  rm "$PUBS_DB"
+fi
+
+sqlite3 "$PUBS_DB" <<EOF
+.read authors.sql
+.read publishers.sql
+.read titles.sql
+.read titleauthor.sql
+.read stores.sql
+.read sales.sql
+.read roysched.sql
+.read discounts.sql
+.read jobs.sql
+.read pub_info.sql
+.read employee.sql
+.quit
+EOF
