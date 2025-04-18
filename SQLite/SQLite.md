@@ -59,3 +59,27 @@ The Chinook sample database contains 11 tables, as follows:
  * **tracks** table stores the data of songs. Each track belongs to one album.
  * **playlists** & playlist_track tables: playlists table stores data about playlists. Each playlist contains a list of tracks. Each track may belong to multiple playlists. The relationship between the playlists and tracks tables is many-to-many. The playlist_track table is used to reflect this relationship.
 
+#### How to connect to SQLite sample database
+
+The sample database file is in ZIP format, so you’ll need to extract it to a directory, such as C:\sqlite\. The file name is chinook.db.
+
+First, open the Command Prompt on Windows or a Terminal on Unix-like systems and navigate to the SQLite directory where the sqlite3 (or sqlite3.exe) file is located.
+
+Second, use the sqlite3 command to connect to the chinook sample database located in the same directory.
+
+`sqlite3 chinook.db`
+
+```
+$ sqlite3 chinook.db 
+SQLite version 3.40.1 2022-12-28 14:03:47
+Enter ".help" for usage hints.
+sqlite> .tables
+albums          employees       invoices        playlists     
+artists         genres          media_types     tracks        
+customers       invoice_items   playlist_track
+sqlite> 
+```
+
+Finally, type the .quit command to exit the sqlite3 tool:
+
+`.quit`
