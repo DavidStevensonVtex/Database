@@ -2,7 +2,11 @@ CREATE TABLE authors
 (
    au_id          varchar(11)
          CONSTRAINT Authors_au_id_Constraint PRIMARY KEY
-         CHECK(length(trim(au_id, '-1234567890')) = 0 AND substr(au_id, 4, 1) = '-'),
+            CHECK(length(trim(substr(au_id, 1, 3), "1234567890")) = 0 AND 
+                  substr(au_id, 4, 1) = '-' AND 
+                  length(trim(substr(au_id, 5, 2), "1234567890")) = 0 AND 
+                  substr(au_id, 7, 1) = '-' AND
+                  length(trim(substr(au_id, 8, 4), "1234567890")) = 0),
 
    au_lname       varchar(40)       NOT NULL,
    au_fname       varchar(20)       NOT NULL,
