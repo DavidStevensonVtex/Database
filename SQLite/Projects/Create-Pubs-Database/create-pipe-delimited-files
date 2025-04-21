@@ -1,0 +1,30 @@
+#!/bin/bash
+
+PUBS_DB="pubs.db"
+files=$(echo *.psv)
+echo "files: '$files'"
+
+sqlite3 "$PUBS_DB" <<EOF
+.read pipe-file-authors.sql
+.read pipe-file-discounts.sql
+.read pipe-file-employee.sql
+.read pipe-file-jobs.sql
+.read pipe-file-publishers.sql
+.read pipe-file-roysched.sql
+.read pipe-file-sales.sql
+.read pipe-file-stores.sql
+.read pipe-file-titleauthor.sql
+.read pipe-file-titles.sql
+.quit
+EOF
+
+# .read publishers.sql
+# .read titles.sql
+# .read titleauthor.sql
+# .read stores.sql
+# .read sales.sql
+# .read roysched.sql
+# .read discounts.sql
+# .read jobs.sql
+# .read pub_info.sql
+# .read employee.sql
